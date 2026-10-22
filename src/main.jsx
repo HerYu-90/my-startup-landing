@@ -21,13 +21,13 @@ const features = [
     icon: 'pin',
     title: '산책은 알아서 기록',
     description: 'GPS로 이동 경로와 거리, 시간을 자동으로 저장해 산책에만 집중할 수 있어요.',
-    tone: 'peach',
+    tone: 'green',
   },
   {
     icon: 'heart',
     title: '차곡차곡 컨디션 다이어리',
     description: '산책 후 기분과 상태를 기록하고, 우리 아이의 변화를 한눈에 살펴봐요.',
-    tone: 'yellow',
+    tone: 'green',
   },
 ];
 
@@ -49,30 +49,26 @@ function Icon({ name, size = 24 }) {
 
 function WalkIllustration() {
   return (
-    <svg className="walk-art" viewBox="0 0 620 470" role="img" aria-label="공원에서 강아지와 산책하는 보호자">
-      <ellipse cx="315" cy="412" rx="247" ry="25" fill="#e9eee2" />
-      <circle cx="326" cy="207" r="175" fill="#f1f5e9" />
-      <path d="M81 345c38-63 93-90 151-65 34-58 83-74 137-50 50-24 100-6 146 45 23 25 38 53 46 83H81Z" fill="#dce9d1" />
-      <path d="M94 365c72-24 139-24 205 0 65-24 139-24 226 0v42H94Z" fill="#c9dfbd" />
-      <path d="M130 176c-7-43 15-77 43-78 21-1 38 18 39 47 2 29-11 57-32 62-23 5-44-9-50-31Z" fill="#9fc48d" />
-      <path d="M155 181c15 7 35 4 49-9M167 192l-7 29m33-34 10 29" stroke="#789c6d" strokeWidth="5" strokeLinecap="round" />
-      <path d="M203 345c13-50 16-100 6-150l72-1c15 47 17 100 8 151Z" fill="#f2a86b" />
-      <path d="m208 209-34 62m101-61 36 51" stroke="#f1c29a" strokeWidth="16" strokeLinecap="round" />
-      <path d="m217 342-9 64m68-63 13 63" stroke="#6f8069" strokeWidth="17" strokeLinecap="round" />
-      <path d="M206 407h-23m104 0h23" stroke="#465c49" strokeWidth="11" strokeLinecap="round" />
-      <circle cx="244" cy="157" r="37" fill="#f4c9a5" />
-      <path d="M207 154c-2-37 18-59 49-53 19 3 30 17 28 37-17-11-34-13-51-8-7 10-15 18-26 24Z" fill="#594b41" />
-      <path d="m278 195 49 44" stroke="#d78b56" strokeWidth="5" strokeLinecap="round" />
-      <path d="M326 239c31-4 43 8 58 25" fill="none" stroke="#d78b56" strokeWidth="3" strokeDasharray="5 6" />
-      <path d="M365 301c-14-21-8-45 12-54 14-6 31 2 39 17l17 5c22 7 29 30 18 50l-9 17c-15 19-49 20-71 4-16-12-20-23-6-39Z" fill="#d89b63" />
-      <path d="M373 260c-19-18-35-13-36 4 0 13 10 21 26 22m61-5c12-17 28-16 31-3 2 11-7 19-20 22" fill="#b97848" />
-      <path d="M392 315c9 6 22 6 32 0" stroke="#744e3d" strokeWidth="3" strokeLinecap="round" />
-      <circle cx="396" cy="286" r="3" fill="#43362f" /><circle cx="421" cy="287" r="3" fill="#43362f" />
-      <path d="M389 335v16m37-13v14" stroke="#b97848" strokeWidth="9" strokeLinecap="round" />
-      <path d="M379 276c14 10 35 12 56 3" fill="none" stroke="#8aaf75" strokeWidth="7" />
-      <circle cx="454" cy="223" r="5" fill="#f0b25f" /><circle cx="477" cy="246" r="3" fill="#f0b25f" />
-      <path d="m144 286 4 8 9 1-7 6 2 8-8-4-7 4 2-8-7-6 9-1Z" fill="#f0b25f" />
-      <path d="M505 335c8-17 20-17 28 0m-19 0c7-13 14-13 21 0" stroke="#9bb88b" strokeWidth="4" strokeLinecap="round" />
+    <svg className="walk-art" viewBox="0 0 560 380" role="img" aria-label="초록 옷을 입은 보호자와 강아지의 산책">
+      <circle cx="285" cy="178" r="148" fill="#effff2" />
+      <circle cx="135" cy="132" r="8" fill="#20c95a" />
+      <circle cx="435" cy="112" r="5" fill="#20c95a" />
+      <path d="M116 310h335" stroke="#d8f5df" strokeWidth="8" strokeLinecap="round" />
+      <path d="M226 232c-5-30-3-56 5-79h49c13 21 17 47 14 79Z" fill="#18c653" />
+      <path d="m238 225-8 72m47-70 14 70" stroke="#111813" strokeWidth="17" strokeLinecap="round" />
+      <path d="M220 300h-17m94 0h17" stroke="#111813" strokeWidth="11" strokeLinecap="round" />
+      <path d="m225 164-32 46m81-45 39 35" stroke="#f4bd91" strokeWidth="14" strokeLinecap="round" />
+      <circle cx="253" cy="132" r="27" fill="#f4bd91" />
+      <path d="M227 128c-1-24 13-39 34-36 14 2 22 12 21 27-12-7-24-9-36-5-5 6-11 11-19 14Z" fill="#111813" />
+      <path d="m312 200 78 16" stroke="#111813" strokeWidth="3" strokeLinecap="round" />
+      <path d="M347 242c13-24 35-32 62-25 18 5 29 19 43 19l13 3c17 4 24 19 19 34l-7 19c-6 15-24 23-43 18l-57-4c-25-2-40-17-43-35-2-11 3-21 13-29Z" fill="#111813" />
+      <path d="M422 228c5-21 23-33 36-25 10 6 8 18 1 33m-54 69-4 25m49-23 4 23" fill="#111813" stroke="#111813" strokeWidth="12" strokeLinecap="round" />
+      <path d="M438 235c15 11 29 13 43 8" stroke="#18c653" strokeWidth="7" strokeLinecap="round" />
+      <circle cx="459" cy="248" r="3" fill="#fff" />
+      <path d="M474 264c5 3 10 3 14 0" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" />
+      <circle cx="513" cy="184" r="15" fill="#18c653" />
+      <path d="m507 184 4 4 8-9" fill="none" stroke="#fff" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M157 240c-10-12-7-24 5-29" fill="none" stroke="#18c653" strokeWidth="4" strokeLinecap="round" />
     </svg>
   );
 }
